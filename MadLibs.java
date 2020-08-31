@@ -14,6 +14,11 @@ public class MadLibs {
 		//3. Read an adjectives.txt file and store its list of adjectives into an arraylist.
 		
 		//4. Read an adverbs.txt file and store its list of adverbs into an arraylist.
+		ArrayList<String> adverbs = new ArrayList<String>();
+		BufferedReader reader4 = new BufferedReader(new FileReader("adverbs.txt"));
+		while((char)reader4.read() != '') {
+			
+		}
 
 		//5. Prompt user for the name of a file containing a MadLibs story.
 		// Read the story from that file and write it to System.out, but replacing each instance of
