@@ -22,5 +22,6 @@ public class MadLibs
 		while(adjectivesReader.ready()){
 			adjectives.add(adjectivesReader.readLine());
 		}
+	adjectivesReader.close();
 }
 	
