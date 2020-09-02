@@ -17,5 +17,10 @@ public class MadLibs
 	
 	}
 		//3. Read an adjectives.txt file and store its list of adjectives into an arraylist.
+	ArrayList<String> adjectives = new ArrayList<String>();
+	BufferedReader adjectivesReader = new BufferedReader(new FileReader("adjectives.txt"));
+		while(adjectivesReader.ready()){
+			adjectives.add(adjectivesReader.readLine());
+		}
 }
 	
