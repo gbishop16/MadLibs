@@ -1,0 +1,11 @@
+run
+walk
+jump
+sleep
+smile
+open
+hold
+help
+work
+try
+play
