@@ -24,3 +24,9 @@ lamp
 table
 hat
 pen
+hat
+bird
+tiger
+lion
+dove
+bed
