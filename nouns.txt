@@ -1,1 +1,26 @@
-dog cat car bug
+dog
+cat
+car
+bug
+binder
+pencil
+computer
+napkin
+stapler
+cup
+paper
+pillow
+toilet
+sink
+towel
+cereal
+steak
+bread
+candle
+tower
+speaker
+television
+lamp
+table
+hat
+pen
