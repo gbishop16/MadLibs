@@ -1,7 +1,13 @@
-
+import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+ 
 public class MadLibs {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 		//0. Give variable names for each of the arraylists below and create Madlibs stories.
 		
 		//1. Read a nouns.txt file and store its list of nouns into an arraylist.
@@ -16,6 +22,13 @@ public class MadLibs {
 		// Read the story from that file and write it to System.out, but replacing each instance of
 		// <<NOUN>>, <<VERB>>, etc. with a randomly chosen word from the corresponding list.
 
+		System.out.println("Name of file containing MadLibs story: ");
+		Scanner scanner = new Scanner(System.in);
+		String inputFileName=scanner.next();
+		
+		FileReader fr = new FileReader(inputFileName); 
+        BufferedReader input = new BufferedReader(fr);
+ 
 	}
 
 }
