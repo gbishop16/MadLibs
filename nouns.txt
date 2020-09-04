@@ -1,0 +1,11 @@
+duck
+cat
+dog
+tiger
+lamp
+cup
+water
+paper
+computer
+calculator
+speaker
