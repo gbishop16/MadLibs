@@ -8,7 +8,7 @@ public class MadLibs
 {
 	
 	//0. Give variable names for each of the arraylists below and create Madlibs stories.
-	public static void main(String[] args) throws IOException
+	public static void main(String[] args) throws IOException 
 	{
 		
 	//1. Read a nouns.txt file and store its list of nouns into an arraylist.
@@ -17,7 +17,7 @@ public class MadLibs
 	ArrayList nouns = new ArrayList<String>();
 	while(br.ready())
 	{
-		for(int i = 0; i<"nouns.txt".length()-1; i++)
+		for(int i = 0; i<11; i++)
 		{
 			
 			nouns.add(br.readLine());
